@@ -173,3 +173,6 @@ val map_blocks : (block -> block list option) -> t -> t
 
 (** Map a function to every block at toplevel. *)
 val map_top_blocks : (block -> block list) -> t -> t
+
+(** Add a metadata value *) 
+val add_meta : t -> string -> meta_value -> t
