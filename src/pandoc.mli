@@ -175,4 +175,4 @@ val map_blocks : (block -> block list option) -> t -> t
 val map_top_blocks : (block -> block list) -> t -> t
 
 (** Add a metadata value *) 
-val add_meta : string -> meta_value -> t -> t
+val set_meta : string -> meta_value -> t -> t
