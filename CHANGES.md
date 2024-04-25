@@ -1,9 +1,12 @@
-0.2.1 (unreleased)
+0.2.2 (unreleased)
 =====
 
-- pandoc-include now fails if the file to include does not exist.
-- pandoc-include now supports string boundaries.
-- Add a pandoc-include to specify base directory.
+0.2.1 (2023-12-15)
+=====
+
+- pandoc-include: now fails if the file to include does not exist.
+- pandoc-include: now supports string boundaries.
+- pandoc-include: add a parameter to specify the base directory.
 
 0.2.0 (2023-11-10)
 =====
